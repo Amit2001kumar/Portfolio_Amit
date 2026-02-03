@@ -2,32 +2,40 @@
 <html lang="en">
 
 <head>
-	<title>Amit Kumar Rai - Full Stack Developer Portfolio</title>
+	<title>Amit Kumar Rai | Angular Developer | Full Stack | AWS | CI/CD</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- SEO + ATS OPTIMIZATION -->
+	<meta name="description"
+		content="Amit Kumar Rai is a Frontend-focused Full Stack Developer with 3+ years of experience in Angular, AWS, CI/CD, Laravel, and ERP/SaaS platforms. Expert in multi-tenant architecture and AWS ECS deployments.">
+	<meta name="keywords"
+		content="Angular Developer, Full Stack Developer, AWS Developer, CI/CD Engineer, ERP Developer, SaaS Developer, Angular Ahmedabad, Angular India, Laravel Developer">
+	<meta name="author" content="Amit Kumar Rai">
+	<meta name="robots" content="index, follow">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Amit Kumar Rai | Angular & Full Stack Developer">
+	<meta property="og:description"
+		content="Frontend-focused Full Stack Developer specializing in Angular, AWS, CI/CD, ERP & SaaS platforms.">
+	<meta property="og:type" content="website">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
-
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
 	<link rel="stylesheet" href="css/aos.css">
-
 	<link rel="stylesheet" href="css/ionicons.min.css">
-
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<style>
-		/*======================================
-//--//-->   ABOUT
-======================================*/
 
+	<style>
 		.about-mf .box-shadow-full {
 			padding-top: 4rem;
 			padding-bottom: 4rem;
@@ -126,76 +134,96 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experience</span></a></li>
 					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
 	<section id="home-section" class="hero">
-		<div class="home-slider  owl-carousel">
-			<div class="slider-item ">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
 						data-scrollax-parent="true">
+
 						<div class="one-third js-fullheight order-md-last img"
 							style="background-image:url(images/image-AKR.png);">
 							<div class="overlay"></div>
 						</div>
-						<div class="one-forth d-flex  align-items-center ftco-animate"
-							data-scrollax=" properties: { translateY: '70%' }">
+
+						<div class="one-forth d-flex align-items-center ftco-animate"
+							data-scrollax="properties: { translateY: '70%' }">
 							<div class="text">
+
 								<span class="subheading">Hello!</span>
-								<h1 class="mb-4 mt-3">I'm <span>Amit Kumar Rai</span></h1>
+
+								<h1 class="mb-4 mt-3">
+									I'm <span>Amit Kumar Rai</span>
+								</h1>
 
 								<span id="typing-animation"></span>
 
 								<script>
-									// UPDATED: Typing animation texts from Amit's profile
-									// Initialize the typing animation
 									const typingAnimationElement = document.getElementById('typing-animation');
 
-									// Create an array of typing text
 									const typingTexts = [
-										'Full Stack Developer  ',
-										'Angular | AWS | CI/CD Specialist ',
-										'Laravel, Node.js, .NET MVC ',
+										'Full Stack Developer',
+										'Angular | AWS | CI/CD | ERP & SaaS',
+										'Laravel, Node.js, .NET MVC',
+										'3+ Years Experience in Enterprise Applications'
 									];
 
-									// Create a function to display the typing animation for a given text
 									function playTypingAnimation(text) {
-										// Loop through each character and add it to the element
 										for (let i = 0; i < text.length; i++) {
 											setTimeout(() => {
 												typingAnimationElement.textContent += text[i];
-											}, i * 200); // Increase the delay to slow down the typing animation
+											}, i * 150);
 										}
 
-										// Once the animation is complete, reset the text and start over
 										setTimeout(() => {
 											typingAnimationElement.textContent = '';
-											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-										}, text.length * 200);
+											playTypingAnimation(
+												typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]
+											);
+										}, text.length * 150 + 1500);
 									}
 
-									// Start the typing animation loop
 									playTypingAnimation(typingTexts[0]);
-
 								</script>
 
+								<br><br>
+
+								<h2>
+									Frontend-focused Full Stack Developer (Angular Specialist)
+								</h2>
+
+								<h2 class="d-flex" style="margin-bottom: 0">
+									3+ Years Experience in ERP, SaaS & Enterprise Web Applications
+								</h2>
+
 								<br>
-								<br>
-								<h2>Full Stack Developer | Angular, AWS, Laravel</h2>
-								<h2 class="d-flex" style="margin-bottom: 0">With over 3+ years of
-									experience</h2>
-								<br>
-								<p><a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank"
-										class="btn btn-primary py-3 px-4">LinkedIn</a>
+
+								<!-- <p>
+									Building scalable Angular applications with multi-tenant architecture,
+									secure AWS deployments, and automated CI/CD pipelines using CircleCI.
+								</p> -->
+
+								<p>
+									<a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank"
+										class="btn btn-primary py-3 px-4">
+										View LinkedIn Profile
+									</a>&nbsp;&nbsp;
+
 									<a href="https://github.com/Amit2001kumar" target="_blank"
-										class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+										class="btn btn-white btn-outline-white py-3 px-4">
+										View Projects & Code
+									</a>
 								</p>
+
 							</div>
 						</div>
 					</div>
@@ -203,81 +231,82 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
+
+					<!-- LEFT SIDE -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 										<div class="about-img">
-											<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt>
+											<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
 										</div>
 									</div>
 									<div class="col-sm-6 col-md-7">
 										<div class="about-info">
 											<p><span class="title-s">Name: </span> <span>Amit Kumar Rai</span></p>
-											<p><span class="title-s">Job Role: </span> <span>Full Stack Developer |
-													Angular | AWS</span></p>
-											<p><span class="title-s">Experience: </span> <span>3+
-													Years</span></p>
-											<p><span class="title-s">Permanent Address: </span> <span>Imlai, Jabalpur,
-													Madhya Pradesh, India</span></p>
+											<p><span class="title-s">Job Role: </span>
+												<span>Frontend-focused Full Stack Developer (Angular)</span>
+											</p>
+											<p><span class="title-s">Experience: </span> <span>3+ Years</span></p>
+											<p><span class="title-s">Location: </span>
+												<span>Jabalpur, Madhya Pradesh, India</span>
+											</p>
 										</div>
 									</div>
 								</div>
 
+								<!-- SKILLS -->
 								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>Angular (v9-v16)</span> <span class="pull-right">95%</span>
+									<p class="title-s">Technical Skills</p>
+
+									<span>Angular (v9–v17)</span> <span class="pull-right">95%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;"
-											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 95%"></div>
 									</div>
 
 									<span>TypeScript / JavaScript (ES6+)</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%"
-											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%"></div>
 									</div>
 
 									<span>Laravel (PHP)</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%"
-											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%"></div>
 									</div>
 
-									<span>AWS (ECS, S3, CI/CD)</span> <span class="pull-right">85%</span>
+									<span>AWS (ECS, S3, Secrets Manager, CI/CD)</span>
+									<span class="pull-right">85%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%"
-											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 85%"></div>
 									</div>
 
 									<span>MySQL / SQL Server</span> <span class="pull-right">80%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%"
-											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 80%"></div>
 									</div>
 
 									<span>HTML5 / CSS3</span> <span class="pull-right">85%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%"
-											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 85%"></div>
 									</div>
 
 									<span>Node.js / .NET MVC</span> <span class="pull-right">80%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%"
-											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 80%"></div>
 									</div>
-
 								</div>
+
 							</div>
 						</div>
 					</div>
 
+					<!-- RIGHT SIDE -->
 					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
@@ -286,51 +315,65 @@
 								<h2 class="mb-4">About Me</h2>
 
 								<p>
-									I am a Frontend-focused Full-Stack Developer with 3+ years of experience,
-									specializing in Angular (v9-v16) and modern UI development. I also possess hands-on
-									backend experience using Laravel, Node.js, and .NET MVC.
-									<br>
-									My expertise includes building scalable ERP and SaaS platforms, implementing
-									multi-tenant architectures, and deploying applications on AWS (ECS, S3) with CI/CD
-									pipelines using CircleCI. My strong focus is on delivering performance-optimized and
-									maintainable UI solutions.
-									<br>
-									<b>Key Achievements: </b>
-									<br>&#8226;&nbsp;Deployed 50+ multi-tenant client instances with zero downtime.
-									<br>&#8226;&nbsp;Reduced deployment time by 70% via CircleCI + AWS automation.
-									<br>&#8226;&nbsp;Integrated 15+ external APIs (payments, communications, platforms).
-									<br>&#8226;&nbsp;Delivered systems supporting 1000+ concurrent users with 99.9%
-									uptime.
-									<br>&#8226;&nbsp;Developed reusable component libraries, increasing team efficiency
-									by 60%.
+									I am a Frontend-focused Full Stack Developer with 3+ years of experience,
+									specializing in Angular (v9–v17) and building high-performance, scalable web
+									applications. I have strong backend exposure using Laravel, Node.js, and .NET MVC.
+									<br><br>
+									I have hands-on experience developing enterprise-grade ERP and SaaS platforms,
+									implementing secure multi-tenant architectures, and deploying applications on AWS
+									using ECS, S3, and automated CI/CD pipelines with CircleCI.
+									<br><br>
+									<b>Key Achievements:</b><br>
+									&#8226;&nbsp;Successfully deployed 50+ multi-tenant client environments with zero
+									downtime.<br>
+									&#8226;&nbsp;Reduced deployment and release cycles by 70% using CI/CD
+									automation.<br>
+									&#8226;&nbsp;Integrated 15+ third-party APIs including payments, messaging, and CRM
+									platforms.<br>
+									&#8226;&nbsp;Built systems supporting 1,000+ concurrent users with 99.9% uptime.<br>
+									&#8226;&nbsp;Created reusable Angular component libraries improving development
+									speed by 60%.
 								</p>
+
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Full Stack Developer | Angular | AWS
-											| CI/CD</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>ERP, SaaS, Logistics, HRMS, Digital
-											Marketing</span></li>
-									<li class="d-flex"><span>Education:</span> <span>B. Tech in Computer Science (RGPV
-											University)</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English,
-											Hindi</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Git, Postman, AWS CLI, DB
-											Normalization, REST APIs</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>AWS Certifications, Learning New UI
-											Frameworks, System Architecture</span></li>
+									<li class="d-flex"><span>Profile:</span>
+										<span>Full Stack Developer | Angular | AWS | CI/CD</span>
+									</li>
+									<li class="d-flex"><span>Domains:</span>
+										<span>ERP, SaaS, Logistics, HRMS, Digital Platforms</span>
+									</li>
+									<li class="d-flex"><span>Education:</span>
+										<span>B.Tech in Computer Science – RGPV University</span>
+									</li>
+									<li class="d-flex"><span>Languages:</span>
+										<span>English, Hindi</span>
+									</li>
+									<li class="d-flex"><span>Tools:</span>
+										<span>Git, Postman, AWS CLI, REST APIs, DB Design</span>
+									</li>
+									<li class="d-flex"><span>Interests:</span>
+										<span>AWS Certifications, System Design, UI Architecture</span>
+									</li>
 								</ul>
+
 							</div>
 						</div>
 
 						<div class="counter-wrap ftco-animate d-flex mt-md-3" style="margin-top: 100px;">
 							<div class="text">
 								<p class="mb-4">
-									<span class="number" data-number="6">6</span> <span>+</span>
-									<span>&nbsp; Major Projects</span>
+									<span class="number" data-number="6">6</span><span>+</span>
+									<span>&nbsp;Enterprise Projects Delivered</span>
 								</p>
-								<p><a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank"
-										class="btn btn-primary py-3 px-3">LinkedIn Profile</a></p>
+								<p>
+									<a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank"
+										class="btn btn-primary py-3 px-3">
+										View LinkedIn Profile
+									</a>
+								</p>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -339,17 +382,22 @@
 
 	<section class="ftco-section ftco-no-pb" id="resume-section">
 		<div class="container">
+
+			<!-- HEADING -->
 			<div class="row justify-content-center pb-5">
 				<div class="col-md-10 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Resume</h1>
+					<h1 class="big big-2">Experience</h1>
 					<h2 class="mb-4">Work Experience</h2>
-					<p>Frontend-focused Full Stack Developer with 3+ years of experience in the full software
-						development lifecycle. Expertise in Angular, Laravel, and AWS, with a proven track record of
-						architecting and deploying scalable multi-tenant SaaS and ERP solutions using CI/CD automation.
+					<p>
+						Frontend-focused Full Stack Developer with 3+ years of hands-on experience across the
+						complete software development lifecycle. Specialized in Angular, AWS, and CI/CD,
+						with proven expertise in architecting, deploying, and scaling multi-tenant ERP and
+						SaaS platforms for enterprise use cases.
 					</p>
 				</div>
 			</div>
 
+			<!-- EXPERIENCE -->
 			<div class="row">
 				<h1 class="big-4">Experience</h1>
 				<div class="underline"></div>
@@ -357,73 +405,82 @@
 			<br>
 
 			<div class="row">
+
+				<!-- OCTANICS -->
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">DEC 2024 - Present</span>
+						<span class="date">Dec 2024 – Present</span>
 						<h2>Software Developer | Angular, Laravel, AWS, CI/CD</h2>
 						<span><strong>Octanics Software, Ahmedabad</strong></span>
-						<p class="mt-2"><strong>Roles & Responsibilities:</strong>
-							<br>&#8226;&nbsp;Architected and developed enterprise ERP modules (CRM, HR, Inventory,
-							Sales) using Angular & Laravel.
-							<br>&#8226;&nbsp;Implemented multi-tenant architecture with customer-specific domain mapping
-							and database isolation.
-							<br>&#8226;&nbsp;Built robust CI/CD pipelines using CircleCI for automated deployment across
-							multiple environments.
-							<br>&#8226;&nbsp;Integrated international (Stripe) & domestic (Razorpay) payment gateways
-							with secure transaction processing.
-							<br>&#8226;&nbsp;Managed AWS ECS deployments with CLI automation and real-time service
-							monitoring.
-							<br>&#8226;&nbsp;Led client onboarding processes and provided comprehensive post-deployment
-							technical support.
+
+						<p class="mt-2">
+							<strong>Key Contributions:</strong><br>
+							&#8226;&nbsp;Designed and developed enterprise-grade ERP modules including CRM, HR,
+							Inventory, and Sales using Angular and Laravel.<br>
+							&#8226;&nbsp;Implemented secure multi-tenant architecture with customer-level domain
+							mapping and isolated databases.<br>
+							&#8226;&nbsp;Built automated CI/CD pipelines using CircleCI, enabling seamless
+							multi-environment deployments.<br>
+							&#8226;&nbsp;Integrated payment gateways (Stripe, Razorpay) with secure and compliant
+							transaction flows.<br>
+							&#8226;&nbsp;Managed AWS ECS services via CLI automation, monitoring, and zero-downtime
+							deployments.<br>
+							&#8226;&nbsp;Led client onboarding, deployment rollouts, and post-production technical
+							support.
 						</p>
 					</div>
 				</div>
 
+				<!-- YEW -->
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">Aug 2023 - Dec 2024</span>
+						<span class="date">Aug 2023 – Dec 2024</span>
 						<h2>Junior Software Developer | Angular, .NET MVC, SQL Server</h2>
 						<span><strong>Yew Technologies</strong></span>
+
 						<p class="mt-2">
-							<strong>Roles & Responsibilities:</strong>
-							<br>&#8226;&nbsp;Developed large-scale logistics ERP for India's leading energy and maritime
-							company.
-							<br>&#8226;&nbsp;Created advanced reporting systems with pivot-style analytics and
-							interactive dashboards.
-							<br>&#8226;&nbsp;Built responsive UI components for Payroll, Surface Movement, Store
-							Management & Billing.
-							<br>&#8226;&nbsp;Implemented performance optimizations reducing load times by 40% across
-							modules.
-							<br>&#8226;&nbsp;Collaborated with cross-functional teams ensuring delivery of
-							business-critical solutions.
+							<strong>Key Contributions:</strong><br>
+							&#8226;&nbsp;Contributed to a large-scale logistics ERP used by India’s leading energy
+							and maritime enterprise.<br>
+							&#8226;&nbsp;Developed advanced reporting modules with pivot-style analytics and
+							interactive dashboards.<br>
+							&#8226;&nbsp;Built responsive UI components for Payroll, Surface Movement, Store
+							Management, and Billing systems.<br>
+							&#8226;&nbsp;Optimized frontend performance, reducing module load times by 40%.<br>
+							&#8226;&nbsp;Collaborated closely with backend, QA, and product teams to deliver
+							business-critical features.
 						</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
+
+				<!-- CYLSYS -->
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">May 2022 - May 2023</span>
+						<span class="date">May 2022 – May 2023</span>
 						<h2>Software Developer | Angular, Node.js, REST APIs</h2>
 						<span><strong>Cylsys Software Solution Pvt. Ltd.</strong></span>
+
 						<p class="mt-2">
-							<strong>Roles & Responsibilities:</strong>
-							<br>&#8226;&nbsp;Developed full-stack applications using JavaScript, Node.js, and Angular
-							frameworks.
-							<br>&#8226;&nbsp;Created responsive web applications with focus on seamless user
-							experiences.
-							<br>&#8226;&nbsp;Built and optimized REST APIs with efficient database integration.
-							<br>&#8226;&nbsp;Collaborated on HRMS, email marketing solutions, and corporate website
-							development.
+							<strong>Key Contributions:</strong><br>
+							&#8226;&nbsp;Developed full-stack web applications using Angular, Node.js, and
+							JavaScript.<br>
+							&#8226;&nbsp;Implemented responsive and user-friendly interfaces focused on usability
+							and performance.<br>
+							&#8226;&nbsp;Built and optimized REST APIs with efficient database integration.<br>
+							&#8226;&nbsp;Contributed to HRMS platforms, bulk email marketing tools, and corporate
+							websites.
 						</p>
 					</div>
 				</div>
+
 			</div>
 
-			<br>
-			<br>
+			<br><br>
 
+			<!-- EDUCATION -->
 			<div class="row">
 				<h1 class="big-4">Education</h1>
 				<div class="underline"></div>
@@ -431,41 +488,52 @@
 			<br>
 
 			<div class="row">
+
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">2018-2022</span>
+						<span class="date">2018 – 2022</span>
 						<h2>Bachelor of Technology in Computer Science (78%)</h2>
 						<span class="position">RGPV University</span>
-						<p class="mt-4">Final Grade: First class with distinction.</p>
+						<p class="mt-4">Graduated with First Class distinction.</p>
 					</div>
 				</div>
+
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">2017-2018</span>
+						<span class="date">2017 – 2018</span>
 						<h2>Higher Secondary School (63%)</h2>
 						<span class="position">MP Board</span>
 						<p class="mt-4">Higher Secondary Certificate.</p>
 					</div>
 				</div>
+
 			</div>
+
 			<div class="row">
+
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">2015-2016</span>
+						<span class="date">2015 – 2016</span>
 						<h2>High School (80%)</h2>
 						<span class="position">MP Board</span>
 						<p class="mt-4">High School Certificate.</p>
 					</div>
 				</div>
+
 			</div>
 
+			<!-- DOWNLOAD -->
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="images/Amit_Kumar_Rai_Resume.pdf" download target="_blank"
-							class="btn btn-primary py-4 px-5">Download
-							CV</a></p>
+					<p>
+						<a href="images/amit-kumar-rai-resume.pdf" download target="_blank"
+							class="btn btn-primary py-4 px-5">
+							Download Resume (PDF)
+						</a>
+					</p>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
@@ -475,10 +543,14 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
 					<h2 class="mb-4">Featured Projects</h2>
-					<p>Below are key projects demonstrating expertise in Full Stack Development, Multi-Tenant SaaS, ERP,
-						and DevOps.</p>
+					<p>
+						A selection of real-world projects showcasing hands-on experience in
+						Full Stack Development, scalable ERP systems, multi-tenant SaaS architecture,
+						and cloud-based DevOps automation.
+					</p>
 				</div>
 			</div>
+
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
@@ -486,75 +558,93 @@
 							style="background-image: url('images/erp-platform.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">1.
-									TurboBusiness ERP Platform</a></h3>
-							<p>Enterprise-grade ERP solution for SMEs with comprehensive business modules. Features
-								multi-tenant scalability with automated customer-specific deployments.
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									1. TurboBusiness ERP Platform
+								</a>
+							</h3>
+							<p>
+								Enterprise-grade ERP platform designed for SMEs, supporting end-to-end business
+								operations
+								with secure multi-tenant scalability and automated deployments.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Designed and developed CRM, HRMS, Sales Pipeline, Inventory, and
+								Analytics modules.
+								<br>&#8226;&nbsp;Integrated IndiaMART & TradeIndia APIs along with WhatsApp, Email, and
+								SMS services.
+								<br>&#8226;&nbsp;Implemented AWS Secrets Manager for secure, region-specific database
+								credentials.
+								<br>&#8226;&nbsp;Enabled automated CI/CD-based customer onboarding with zero manual
+								intervention.
 								<br>
-								<strong>My Work: </strong>
-								<br>&#8226;&nbsp;Built comprehensive CRM, HR, Sales Pipeline, Inventory, and Reporting
-								modules.
-								<br>&#8226;&nbsp;Integrated IndiaMART, TradeIndia APIs & WhatsApp/Email/SMS
-								communication services.
-								<br>&#8226;&nbsp;Implemented AWS Secrets Manager for secure, region-aware database
-								access.
-								<br>
-								**Tech:** Angular 16, Laravel, MySQL, AWS ECS, CircleCI, Secrets Manager
+								<strong>Tech Stack:</strong> Angular 16, Laravel, MySQL, AWS ECS, CircleCI, Secrets
+								Manager
 							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<!-- <a href="https://github.com/Amit2001kumar" target="_blank" class="block-20 zoom-effect"
 							style="background-image: url('images/logistics-erp.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">2. Seros
-									Greenline Logistics ERP</a></h3>
-							<p>Large-scale ERP serving India's fastest-growing energy, maritime & logistics company.
-								<strong>My Work: </strong>
-								<br>&#8226;&nbsp;Built comprehensive vehicle tracking system with live GPS monitoring
-								and route optimization.
-								<br>&#8226;&nbsp;Developed central control panel for fleet management with geo-fencing
-								controls.
-								<br>&#8226;&nbsp;Implemented real-time truck tracking with Google Maps integration.
-								<br>&#8226;&nbsp;Built UI for Payroll, Surface Movement, Store Management, and automated
-								Billing systems.
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									2. Seros Greenline Logistics
+								</a>
+							</h3>
+							<p>
+								A large-scale logistics ERP solution built for one of India’s leading energy and
+								maritime companies.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Developed real-time vehicle tracking with GPS and Google Maps
+								integration.
+								<br>&#8226;&nbsp;Built fleet management dashboard with geo-fencing and route
+								optimization.
+								<br>&#8226;&nbsp;Designed Payroll, Surface Movement, Store Management, and Billing
+								modules.
+								<br>&#8226;&nbsp;Optimized system performance for handling high-volume operational data.
 								<br>
-								**Tech:** Angular 9/15, .NET MVC, SQL Server, Google Maps API, Real-time WebSocket
+								<strong>Tech Stack:</strong> Angular 9/15, .NET MVC, SQL Server, Google Maps API,
+								WebSockets
 							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
 						<!-- <a href="https://github.com/Amit2001kumar" target="_blank" class="block-20 zoom-effect"
 							style="background-image: url('images/hrms.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">3. HRMS
-									Management System</a></h3>
-							End-to-end HR management system for employee lifecycle and performance tracking.
-							<strong>My Work: </strong>
-							<br>&#8226;&nbsp;Developed secure login/registration with company setup and multi-tenant
-							architecture.
-							<br>&#8226;&nbsp;Built comprehensive employee dashboard with task assignment and timesheet
-							management.
-							<br>&#8226;&nbsp;Created automated attendance tracking with approval chains and notification
-							systems.
-							<br>&#8226;&nbsp;Implemented performance metrics dashboard with productivity analytics and
-							reporting.
-							<br>
-							**Tech:** Angular 14, Node.js, MySQL, JWT Authentication
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									3. HRMS Management System
+								</a>
+							</h3>
+							<p>
+								A complete HR management system covering employee lifecycle, productivity tracking,
+								and performance analytics.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Implemented secure authentication with company-level multi-tenant
+								setup.
+								<br>&#8226;&nbsp;Built employee dashboards with task, attendance, and timesheet
+								management.
+								<br>&#8226;&nbsp;Automated attendance approval workflows with notifications.
+								<br>&#8226;&nbsp;Developed performance analytics dashboards for HR decision-making.
+								<br>
+								<strong>Tech Stack:</strong> Angular 14, Node.js, MySQL, JWT Authentication
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<br>
+
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
@@ -562,122 +652,145 @@
 							style="background-image: url('images/email-marketing.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">4. Send Quick
-									Mail Platform</a>
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									4. Send Quick Mail Platform
+								</a>
 							</h3>
-							Advanced bulk email marketing platform with custom template design capabilities.
-							<strong>My Work: </strong>
-							<br>&#8226;&nbsp;Built intuitive UI for email template creation with drag-drop editor and
-							live preview.
-							<br>&#8226;&nbsp;Developed sophisticated audience segmentation using dynamic filtering
-							algorithms.
-							<br>&#8226;&nbsp;Implemented scheduled email campaigns with automated delivery and tracking
-							systems.
-							<br>&#8226;&nbsp;Created analytics dashboard for campaign performance monitoring.
-							<br>
-							**Tech:** Angular 14, Node.js, MySQL, Email Service Integration
+							<p>
+								A scalable bulk email marketing platform with campaign automation and analytics.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Developed drag-and-drop email template editor with live preview.
+								<br>&#8226;&nbsp;Implemented advanced audience segmentation and filtering logic.
+								<br>&#8226;&nbsp;Built scheduled campaign execution with delivery tracking.
+								<br>&#8226;&nbsp;Designed analytics dashboards for open-rate and performance monitoring.
+								<br>
+								<strong>Tech Stack:</strong> Angular 14, Node.js, MySQL, Email Service APIs
+							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<!-- <a href="https://github.com/Amit2001kumar" target="_blank" class="block-20 zoom-effect"
 							style="background-image: url('images/corporate-website.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">5. Octanics
-									Corporate Website</a></h3>
-							Modern corporate website with integrated TurboBusiness ERP promotion portal.
-							<br><strong>My Work: </strong>
-							<br>&#8226;&nbsp;Implemented dynamic pricing tiers and license-based pricing logic.
-							<br>&#8226;&nbsp;Automated multi-tenant ERP provisioning with region-specific database
-							allocation.
-							<br>&#8226;&nbsp;Built modular Angular components ensuring scalability across product pages.
-							<br>&#8226;&nbsp;Seamless demo booking system with CRM integration and customer onboarding
-							workflow.
-							<br>
-							**Tech:** Angular 16, Laravel, AWS ECS, CircleCI
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									5. Octanics Corporate Website
+								</a>
+							</h3>
+							<p>
+								A modern corporate website integrated with TurboBusiness ERP onboarding workflows.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Implemented license-based pricing and subscription tiers.
+								<br>&#8226;&nbsp;Automated region-wise ERP provisioning with dynamic database
+								allocation.
+								<br>&#8226;&nbsp;Built reusable Angular components for long-term scalability.
+								<br>&#8226;&nbsp;Integrated demo booking and CRM-based customer onboarding flow.
+								<br>
+								<strong>Tech Stack:</strong> Angular 16, Laravel, AWS ECS, CircleCI
+							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<!-- <a href="https://github.com/Amit2001kumar" target="_blank" class="block-20 zoom-effect"
 							style="background-image: url('images/corporate-website-2.png');">
 						</a> -->
 						<div class="text mt-3 float-right d-block">
-
-							<h3 class="heading"><a href="https://github.com/Amit2001kumar" target="_blank">6. Cylsys
-									Corporate Website</a></h3>
-							Professional corporate website showcasing software services, products, and company
-							portfolio.
-							<br><strong>My Work: </strong>
-							<br>&#8226;&nbsp;Integrated dynamic CMS backend enabling real-time content management and
-							updates.
-							<br>&#8226;&nbsp;Developed comprehensive sections: About Us, Client Portfolio, Service
-							Gallery, and Career Portal.
-							<br>&#8226;&nbsp;Implemented client testimonials showcase with automated content rotation.
-							<br>&#8226;&nbsp;Created SEO-optimized architecture with performance caching.
-							<br>
-							**Tech:** Angular 14, Node.js, MySQL, CMS Integration, SEO Optimization
+							<h3 class="heading">
+								<a href="https://github.com/Amit2001kumar" target="_blank">
+									6. Cylsys Corporate Website
+								</a>
+							</h3>
+							<p>
+								A professional corporate website highlighting software services and company portfolio.
+								<br><strong>Key Contributions:</strong>
+								<br>&#8226;&nbsp;Developed CMS-driven architecture for real-time content updates.
+								<br>&#8226;&nbsp;Implemented SEO-friendly structure with performance optimizations.
+								<br>&#8226;&nbsp;Built dynamic sections for services, careers, testimonials, and
+								portfolio.
+								<br>&#8226;&nbsp;Improved page performance and search visibility using best SEO
+								practices.
+								<br>
+								<strong>Tech Stack:</strong> Angular 14, Node.js, MySQL, CMS, SEO Optimization
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<p style="text-align: center; margin-top: 20px;">*All 6 projects detailed above. View the code on my <a
-					href="https://github.com/Amit2001kumar" target="_blank">GitHub</a>*</p>
+
+			<p style="text-align: center; margin-top: 20px;">
+				*All projects are production-level applications. Source code available on my
+				<a href="https://github.com/Amit2001kumar" target="_blank">GitHub</a>.*
+			</p>
 		</div>
 	</section>
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
 		<div class="container">
 			<div class="row d-md-flex align-items-center">
+
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="3">0</strong>
-							<span>+ Years Experience</span>
+							<span>+ Years of Professional Experience</span>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="6">0</strong>
-							<span>Major Projects</span>
+							<span>Production-Ready Major Projects</span>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="50">0</strong>
-							<span>Client Deployments</span>
+							<span>Client & Customer Deployments</span>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
 							<strong class="number" data-number="99">0</strong>
-							<span>% Uptime Delivery</span>
+							<span>% Application Uptime & Reliability</span>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 
 		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
-					<h2>More projects on<span> Github </span> </h2>
+					<h2>Explore More Projects on <span>GitHub</span></h2>
 					<div class="heading">
-						<h4> I deliver scalable, performant, and maintainable software solutions </h4>
+						<h4>
+							I specialize in building scalable, high-performance, and maintainable
+							web applications using modern full-stack and cloud technologies.
+						</h4>
 						<br>
-						<p><a href="https://github.com/Amit2001kumar" target="_blank"
-								class="btn btn-primary py-3 px-5">GitHub Profile</a></p>
+						<p>
+							<a href="https://github.com/Amit2001kumar" target="_blank"
+								class="btn btn-primary py-3 px-5">
+								View GitHub Profile
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -689,8 +802,8 @@
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
-					<p>Below are the details to reach out to me for professional inquiries!</p>
+					<h2 class="mb-4">Get in Touch</h2>
+					<p>Feel free to reach out for job opportunities, freelance work, or professional collaboration.</p>
 				</div>
 			</div>
 
@@ -700,63 +813,89 @@
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-map-signs"></span>
 						</div>
-						<h3 class="mb-4">Current Address</h3>
+						<h3 class="mb-4">Current Location</h3>
 						<p>Ahmedabad, Gujarat, India</p>
 					</div>
 				</div>
+
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-phone2"></span>
 						</div>
 						<h3 class="mb-4">Contact Numbers</h3>
-						<p><a href="tel://+917580972806">(+91) 7580972806</a></p>
-						<p><a href="tel://+918817146281">(+91) 8817146281</a></p>
+						<p><a href="tel://+917580972806">+91 75809 72806</a></p>
+						<p><a href="tel://+918817146281">+91 88171 46281</a></p>
 					</div>
 				</div>
+
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-paper-plane"></span>
 						</div>
-						<h3 class="mb-4">Email Addresses</h3>
+						<h3 class="mb-4">Email</h3>
 						<p><a href="mailto:raia6934@gmail.com">raia6934@gmail.com</a></p>
 						<p><a href="mailto:amitkumarrai172001@gmail.com">amitkumarrai172001@gmail.com</a></p>
 					</div>
 				</div>
+
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-globe"></span>
 						</div>
-						<h3 class="mb-4">Download Resume</h3>
-						<p><a href="images/Amit_Rai.pdf" download target="_blank">Download PDF</a></p>
+						<h3 class="mb-4">Resume</h3>
+						<p>
+							<a href="images/amit-rai-resume.pdf" download target="_blank">
+								Download Resume (PDF)
+							</a>
+						</p>
 					</div>
 				</div>
 
 				<div class="container">
-					<br>
-					<br>
+					<br><br>
 					<div class="row justify-content-center">
-						<div class="col-md-7 ftco-animate text-center">
-							<h2>Have a<span> Project Idea? </span> <a href="tel:7580972806"
-									class="btn btn-primary py-3 px-5">Contact Now</a> </h2>
+						<div class="col-md-8 ftco-animate text-center">
+							<h2>
+								Have a <span>Project or Opportunity?</span>
+								<a href="tel:7580972806" class="btn btn-primary py-3 px-5">
+									Contact Now
+								</a>
+							</h2>
 						</div>
 					</div>
+
 					<br>
+
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-						<li class="ftco-animate normal-txt">Find me on </li>
-						<li class="ftco-animate"><a href="https://linkedin.com/in/amit-kumar-rai2001"
-								target="_blank"><span class="icon-linkedin"></span></a></li>
-						<li class="ftco-animate"><a href="https://github.com/Amit2001kumar" target="_blank"><span
-									class="icon-github"></span></a></li>
-						<li class="ftco-animate"><a
-								href="https://www.instagram.com/amit_rai_2001?igsh=MTkxdnlwc3ZxcG1hcA=="
-								target="_blank"><span class="icon-instagram"></span></a></li>
-						<li class="ftco-animate"><a href="https://t.me/amitkumarrai2001" target="_blank"><span
-									class="icon-paper-plane"></span></a></li>
-						<li class="ftco-animate"><a href="mailto:raia6934@gmail.com" target="_blank"><span
-									class="icon-envelope"></span></a></li>
+						<li class="ftco-animate normal-txt">Connect with me</li>
+						<li class="ftco-animate">
+							<a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank">
+								<span class="icon-linkedin"></span>
+							</a>
+						</li>
+						<li class="ftco-animate">
+							<a href="https://github.com/Amit2001kumar" target="_blank">
+								<span class="icon-github"></span>
+							</a>
+						</li>
+						<li class="ftco-animate">
+							<a href="https://www.instagram.com/amit_rai_2001" target="_blank">
+								<span class="icon-instagram"></span>
+							</a>
+						</li>
+						<li class="ftco-animate">
+							<a href="https://t.me/amitkumarrai2001" target="_blank">
+								<span class="icon-paper-plane"></span>
+							</a>
+						</li>
+						<li class="ftco-animate">
+							<a href="mailto:raia6934@gmail.com">
+								<span class="icon-envelope"></span>
+							</a>
+						</li>
 					</ul>
 					<br>
 				</div>
@@ -767,13 +906,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-
-					<p>Copyright
-						&copy;
-						<script>document.write(new Date().getFullYear());</script> All
-						rights reserved | Template made with <i class="icon-heart color-danger" aria-hidden="true"></i>
-						by <a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank">Amit
-							Kumar Rai</a>
+					<p>
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script>
+						All rights reserved |
+						Designed & Developed with
+						<i class="icon-heart color-danger" aria-hidden="true"></i>
+						by
+						<a href="https://linkedin.com/in/amit-kumar-rai2001" target="_blank">
+							Amit Kumar Rai
+						</a>
+						— Full Stack Developer (Angular | AWS | CI/CD)
 					</p>
 				</div>
 			</div>
